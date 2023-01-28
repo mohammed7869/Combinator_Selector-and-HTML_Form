@@ -1,0 +1,60 @@
+/* Descendent Selector  (Space) */
+/* div .para{
+    color: red;
+}
+.container #para-1{
+    color: blue;
+}
+ul li{
+    background-color: pink;
+} 
+*/
+
+/* Child Selector */
+/* div > p{
+    color: rgb(201, 223, 211);
+}
+span > p{
+    background-color: pink;
+} */
+
+/* Adjacent sibling selector (+)*/
+/* div + p{
+    color: red;
+} */
+
+
+/* General Sibling Selector  (~) */
+/* div ~ p{
+   color: orangered;
+   } */
+
+   /* Psuedo-class Selector */
+   .btn{
+    background-color: orange;
+   border: 0px;
+   padding: 10px 20px;
+   border-radius: 15px;
+   }
+
+   .btn:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+   }
+
+   /* Pseudo-elemnt Selector */
+   p::first-line{
+    color: orangered;
+   }
+   .area::first-letter{
+    color: green;
+   }
+   p::before{
+    color: pink;
+    content: "------before------";
+   }
+   p::after{
+    color: pink;
+    content: "------after------";
+   }

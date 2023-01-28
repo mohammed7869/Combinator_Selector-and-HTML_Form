@@ -1,0 +1,20 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.form-control{
+    width: 20%;
+    height: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: white;
+}
+.title{
+    font-size: 13px;
+    font-weight: 600;
+}
+.margin{
+    margin: 10px;
+}
